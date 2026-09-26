@@ -11,3 +11,21 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
 | `smtp` (`smtppois.vbp`) | VB6 | ActiveX OCX | Winsock SMTP send control (`smtppois.ocx`) |
+
+## How to open
+
+Open the `.vbp` in Visual Basic 6.0 IDE, compile, and register the OCX:
+- `smtppois.vbp`
+
+## Requirements
+
+- Visual Basic 6.0 IDE
+- Winsock / network access for SMTP
+
+## Attribution and provenance
+
+Working copy from my Historical Dev folder `VB/Old/Smtppois`. Third-party FairChild SMTP ActiveX control tree.
+
+## License
+
+Original FairChild control license where applicable; MIT © 2026 VaderConsulting for Dave Robinson's wrapper notes. See `LICENSE` if present.
